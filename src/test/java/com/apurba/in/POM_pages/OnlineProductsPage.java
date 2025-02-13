@@ -1,4 +1,4 @@
-package com.apurba.in.pages;
+package com.apurba.in.POM_pages;
 
 import com.apurba.in.utility.BrowserDriver;
 import org.openqa.selenium.By;
@@ -6,9 +6,7 @@ import org.openqa.selenium.By;
 
 public class OnlineProductsPage extends BrowserDriver {
     public static String formalshoes_dropdown_class = "formalshoedropdown";
-
     public static String formalshoes_webtable = "/html/body/div[2]/table";
-
     public static String formalshoes_webtable_tr = "/html/body/div[2]/table/tbody/tr[1]/td[1]";
 
     public static void click_formalshoesdropdpown() throws InterruptedException {

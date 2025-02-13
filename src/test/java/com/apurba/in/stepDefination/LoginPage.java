@@ -1,9 +1,8 @@
 package com.apurba.in.stepDefination;
 
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 
-import static com.apurba.in.pages.LoginPage.*;
+import static com.apurba.in.POM_pages.LoginPage.*;
 
 public class LoginPage {
 

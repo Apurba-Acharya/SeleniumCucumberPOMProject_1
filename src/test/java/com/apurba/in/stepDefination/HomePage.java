@@ -1,8 +1,9 @@
 package com.apurba.in.stepDefination;
 
 import io.cucumber.java.en.Given;
+import org.testng.annotations.Test;
 
-import static com.apurba.in.pages.HomePage.*;
+import static com.apurba.in.POM_pages.HomePage.*;
 
 public class HomePage {
     @Given("User navigates to the Login page")
@@ -15,6 +16,5 @@ public class HomePage {
     public void user_navigates_to_the_Online_product_page() throws InterruptedException {
         click_hamburger_menu();
         click_OnlineProducts_link();
-
     }
 }

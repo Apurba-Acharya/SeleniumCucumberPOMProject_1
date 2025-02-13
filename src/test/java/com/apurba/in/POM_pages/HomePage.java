@@ -1,4 +1,4 @@
-package com.apurba.in.pages;
+package com.apurba.in.POM_pages;
 
 import com.apurba.in.utility.BrowserDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -11,11 +11,11 @@ public class HomePage extends BrowserDriver {
     public static String signIn_link_LinkText = "Sign In Portal";
     public static String onlineProductsPage_link_LinkText = "Online Products";
 
-
     public static void click_hamburger_menu() throws InterruptedException {
-        WebDriverManager.chromedriver().setup();
+        //WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.get("https://anupdamoda.github.io/AceOnlineShoePortal/index.html#");
+        driver.manage().window().maximize();
         Thread.sleep(2000);
         driver.findElement(By.xpath(hamburger_menu_xpath)).click();
     }

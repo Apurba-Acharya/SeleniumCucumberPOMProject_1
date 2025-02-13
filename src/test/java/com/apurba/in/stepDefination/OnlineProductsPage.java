@@ -2,10 +2,9 @@ package com.apurba.in.stepDefination;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Assert;
 
-import static com.apurba.in.pages.OnlineProductsPage.click_formalshoesdropdpown;
-import static com.apurba.in.pages.OnlineProductsPage.getText_formalshoes_firstvalue;
+import static com.apurba.in.POM_pages.OnlineProductsPage.click_formalshoesdropdpown;
+import static com.apurba.in.POM_pages.OnlineProductsPage.getText_formalshoes_firstvalue;
 import static org.junit.Assert.assertEquals;
 
 public class OnlineProductsPage {

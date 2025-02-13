@@ -1,4 +1,4 @@
-package com.apurba.in.pages;
+package com.apurba.in.POM_pages;
 
 import com.apurba.in.utility.BrowserDriver;
 import org.openqa.selenium.By;
