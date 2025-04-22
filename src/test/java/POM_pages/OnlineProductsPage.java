@@ -1,6 +1,6 @@
-package com.apurba.in.POM_pages;
+package POM_pages;
 
-import com.apurba.in.utility.BrowserDriver;
+import utility.BrowserDriver;
 import org.openqa.selenium.By;
 
 

@@ -1,11 +1,12 @@
-package com.apurba.in.stepDefination;
+package stepDefination;
 
 import io.cucumber.java.en.Given;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-import static com.apurba.in.POM_pages.HomePage.*;
+import static POM_pages.HomePage.click_hamburger_menu;
+import static POM_pages.HomePage.*;
 
 public class HomePage {
     @Given("User navigates to the Login page")

@@ -1,9 +1,9 @@
-package com.apurba.in.stepDefination;
+package stepDefination;
 
 import io.cucumber.java.en.Then;
 
-import static com.apurba.in.POM_pages.RegistrationPage.visibility_user_registration_page;
-import static com.apurba.in.utility.BrowserDriver.driver;
+import static POM_pages.RegistrationPage.visibility_user_registration_page;
+import static utility.BrowserDriver.driver;
 
 public class RegistrationPage {
 

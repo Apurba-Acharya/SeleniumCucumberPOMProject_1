@@ -1,7 +1,7 @@
-package com.apurba.in.POM_pages;
+package POM_pages;
 
-import com.apurba.in.utility.BrowserDriver;
-import com.apurba.in.utility.PropertiesReader;
+import utility.BrowserDriver;
+import utility.PropertiesReader;
 import org.openqa.selenium.By;
 
 import java.io.IOException;

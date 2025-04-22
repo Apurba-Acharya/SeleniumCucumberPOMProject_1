@@ -1,4 +1,4 @@
-package com.apurba.in.utility;
+package utility;
 
 import java.io.FileInputStream;
 import java.io.IOException;

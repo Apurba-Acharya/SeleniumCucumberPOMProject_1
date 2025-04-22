@@ -1,4 +1,4 @@
-package com.apurba.in.runner;
+package runner;
 
 
 import io.cucumber.junit.Cucumber;

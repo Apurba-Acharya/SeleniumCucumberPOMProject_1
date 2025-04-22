@@ -1,8 +1,8 @@
-package com.apurba.in.stepDefination;
+package stepDefination;
 
 import io.cucumber.java.en.Then;
 
-import static com.apurba.in.POM_pages.LoggedInPage.*;
+import static POM_pages.LoggedInPage.*;
 
 public class LoggedInPage {
 

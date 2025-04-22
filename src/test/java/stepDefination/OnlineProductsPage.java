@@ -1,11 +1,11 @@
-package com.apurba.in.stepDefination;
+package stepDefination;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-import static com.apurba.in.POM_pages.OnlineProductsPage.click_formalshoesdropdpown;
-import static com.apurba.in.POM_pages.OnlineProductsPage.getText_formalshoes_firstvalue;
-import static com.apurba.in.utility.BrowserDriver.driver;
+import static POM_pages.OnlineProductsPage.click_formalshoesdropdpown;
+import static POM_pages.OnlineProductsPage.getText_formalshoes_firstvalue;
+import static utility.BrowserDriver.driver;
 import static org.junit.Assert.assertEquals;
 
 public class OnlineProductsPage {

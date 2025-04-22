@@ -1,10 +1,10 @@
-package com.apurba.in.stepDefination;
+package stepDefination;
 
 import io.cucumber.java.en.When;
 
 import java.io.IOException;
 
-import static com.apurba.in.POM_pages.LoginPage.*;
+import static POM_pages.LoginPage.*;
 
 public class LoginPage {
 
